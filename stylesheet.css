@@ -140,13 +140,18 @@ header {
   position: relative;
 }
 
-.menber-txt p {
-  position: absolute;
+.menber-txt h2 {
+  position: relative;
   width: 100%;
 }
 
+.menber-txt p {
+  position: relative;
+  width: 70%;
+}
+
 .txt-content {
-  width: 60%;
+  width: 100%;
   display: inline-block;
   font-size: 12px;
   color: #b3aeb5;
