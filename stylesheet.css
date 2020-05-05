@@ -141,6 +141,12 @@ header {
   position: relative;
   width: 70%;
 }
+.menber-txt a {
+  color:  black;
+  position: relative;
+  width: 70%;
+}
+
 
 .txt-content {
   width: 100%;
