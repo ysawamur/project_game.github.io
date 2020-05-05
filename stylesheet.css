@@ -114,6 +114,7 @@ header {
 
 
 .menbers {
+  margin: 0 auto;
   width: 1170px;
   height: 500px;
   padding-bottom: 80px;
