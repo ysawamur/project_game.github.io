@@ -21,9 +21,7 @@ li {
   padding: 180px 0 100px 0;
   background-size: cover;
   color: black;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  text-align: center;
 }
 
 span {
@@ -109,6 +107,26 @@ header {
   color: white;
   display: block;
   width: 10%;
+}
+
+.top-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.top-wrapper .kanji {
+  height: 100px;
+  background-image: url("akito_kanji.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.top-wrapper .alph {
+  height: 50px;
+  background-image: url("akito_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .menbers {
