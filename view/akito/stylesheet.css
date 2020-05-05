@@ -21,7 +21,9 @@ li {
   padding: 180px 0 100px 0;
   background-size: cover;
   color: black;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 span {
@@ -107,12 +109,6 @@ header {
   color: white;
   display: block;
   width: 10%;
-}
-
-.top-wrapper {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .menbers {
