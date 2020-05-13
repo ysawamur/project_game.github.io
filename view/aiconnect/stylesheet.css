@@ -19,12 +19,19 @@ li {
 }
 
 .top-wrapper {
-  margin:100px 50px;
+  padding: 180px 0 100px 0;
+  width: 100%;
+  background-image: url(../../image/school_zone.png);
   background-size: cover;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  width: 50%;
+  background-image: url("../../image/title.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
@@ -33,15 +40,13 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  /* positionプロパティをfixedに、topを0に指定してください */
   position: fixed;
   top: 0;
 
-  /* z-indexを10に指定してください */
   z-index: 10;
 }
 
-.logo {
+.title_logo {
   width: 124px;
   margin-top: 20px;
   padding: 0 50px;
@@ -64,53 +69,18 @@ header {
   width: 10%;
 }
 
-.contents {
-  float: left;
-}
-
-.aicon {
-  align: center;
-}
-
-.yuki h1 {
-  text-align: center;
-}
-
-.twitter {
-  align: center;
-  color: white;
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-
-/*.top-wrapper .kanji {
-  height: 40px;
-  background-image: url("yuki_kanji.png");
+/*
+.top-wrapper .kanji {
+  height: 50px;
+  background-image: url("akito_kanji.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .top-wrapper .alph {
-  height: 20px;
+  height: 25px;
   width: 50%;
-  background-image: url("yuki_logo.png");
+  background-image: url("akito_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   border-bottom: 1px solid black;
