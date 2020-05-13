@@ -22,6 +22,7 @@ li {
   background-size: cover;
   color: black;
   text-align: center;
+  margin-bottom: 200px;
 }
 
 .fire {
@@ -38,6 +39,11 @@ li {
   opacity: 0.7;
 }
 
+
+.mv {
+  float: left;
+  width: 50%;
+}
 
 
 header {
@@ -80,6 +86,7 @@ header {
   height: 500px;
   padding-bottom: 80px;
   text-align: center;
+  margin-top: 500px;
 }
 
 
